@@ -13,6 +13,7 @@
 		BE41B3CF1C8C094500D386C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE41B3CD1C8C094500D386C3 /* Main.storyboard */; };
 		BE41B3D11C8C094500D386C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE41B3D01C8C094500D386C3 /* Assets.xcassets */; };
 		BE41B3D41C8C094500D386C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE41B3D21C8C094500D386C3 /* LaunchScreen.storyboard */; };
+		BE41B3DD1C8C22A100D386C3 /* WMCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = BE41B3DC1C8C22A100D386C3 /* WMCollectionViewFlowLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		BE41B3D01C8C094500D386C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE41B3D31C8C094500D386C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BE41B3D51C8C094500D386C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE41B3DB1C8C22A100D386C3 /* WMCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		BE41B3DC1C8C22A100D386C3 /* WMCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMCollectionViewFlowLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 		BE41B3C31C8C094500D386C3 /* 集合视图 */ = {
 			isa = PBXGroup;
 			children = (
+				BE41B3DB1C8C22A100D386C3 /* WMCollectionViewFlowLayout.h */,
+				BE41B3DC1C8C22A100D386C3 /* WMCollectionViewFlowLayout.m */,
 				BE41B3C71C8C094500D386C3 /* AppDelegate.h */,
 				BE41B3C81C8C094500D386C3 /* AppDelegate.m */,
 				BE41B3CA1C8C094500D386C3 /* ViewController.h */,
@@ -150,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE41B3DD1C8C22A100D386C3 /* WMCollectionViewFlowLayout.m in Sources */,
 				BE41B3CC1C8C094500D386C3 /* ViewController.m in Sources */,
 				BE41B3C91C8C094500D386C3 /* AppDelegate.m in Sources */,
 				BE41B3C61C8C094500D386C3 /* main.m in Sources */,
